@@ -1,0 +1,16 @@
+/* Remove or comment out the loader styles if they exist */
+/* 
+.loader {
+    display: none;
+} 
+*/ 
+
+/* Remove the MuiCircularProgress styles */
+.MuiCircularProgress-svg.css-1idz92c-MuiCircularProgress-svg {
+  display: none;
+}
+
+/* Or if you want to keep other styles but remove just this SVG, you can use: */
+svg.css-1idz92c-MuiCircularProgress-svg {
+  display: none;
+}

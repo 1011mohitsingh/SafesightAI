@@ -1,0 +1,116 @@
+/* Small Container */
+.small-container {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 82, 204, 0.4), 
+              0 12px 30px rgba(0, 0, 0, 0.1);  
+  background-color: #FFFFFF;
+  transform: translateY(0); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.small-container:hover {
+  box-shadow: 0 12px 30px rgba(0, 82, 204, 0.6), 
+              0 16px 40px rgba(0, 0, 0, 0.15);   
+}
+
+/* Form Container */
+.Registerform-wrapper {
+  text-align: center;
+}
+
+/* Heading */
+.Registerform-wrapper h2 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+.Registerform-wrapper p {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Submit Button */
+.send {
+  width: 100%;
+  padding: 10px;
+  background-color: #056498;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send:hover {
+  background-color: #045581;
+}
+
+/* Sign In Button */
+.sign-in-btn {
+  background: none;
+  border: none;
+  color: #056498;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  padding: 0;
+}
+
+.sign-in-btn:hover {
+  color: #045581;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close-btn:hover {
+  color: #ff0000;
+}
